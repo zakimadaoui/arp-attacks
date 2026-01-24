@@ -1,0 +1,14 @@
+[package]
+name = "arp-attack"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+dns-lookup = "3.0.1"
+etherparse = "0.19.0"
+ipnet = "2.11.0"
+libc = "0.2.180"
+pnet = "0.35.0"
+tls-parser = "0.12.2"
+tokio = { version = "1.49.0", features = ["full"] }
