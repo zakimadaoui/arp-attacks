@@ -1,0 +1,8 @@
+{
+  "name": "arp-attack",
+  "version": "1.0.0",
+  "dependencies": [
+    "boost-asio",
+    "pcapplusplus"
+  ]
+}
